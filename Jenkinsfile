@@ -1,4 +1,3 @@
-
 pipeline {
   agent any
 
@@ -14,7 +13,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git 'https://github.com/Darshanm416/sonarqube-project.git'
+        git branch: 'main', url: 'https://github.com/Darshanm416/sonarqube-project.git'
       }
     }
 
