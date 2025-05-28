@@ -8,7 +8,7 @@ pipeline {
   }
 
   tools {
-    maven 'Maven'  // This should match the Maven tool name configured in Jenkins
+    maven 'maven'  // This should match the Maven tool name configured in Jenkins
   }
 
   stages {
